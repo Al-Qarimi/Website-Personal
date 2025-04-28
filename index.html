@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah</title>
+    <style>
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #55607d,#6c7eac);
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    background: linear-gradient(to right, #333333,#444444);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+    font-size: 0.8em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 10px 100px 10px;
+    text-align: center;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #55607d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+form button:hover {
+    background: #55607d;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SMAN 3 TAKALAR</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#academics">Akademik</a></li>
+                <li><a href="#announcements">Pengumuman</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Selamat Datang di<br>SMAN 3 TAKALAR</h2>
+            <p>Mendidik Generasi Penerus Bangsa</p>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Sejarah singkat dan visi misi sekolah</p>
+            <p>Kepala Sekolah : Ilham
+Akreditasi : A</p>
+Kurikulum : Kurikulum Merdeka</p>
+NPSN : 40301564</p>
+Status : Negeri</p>
+Bentuk Pendidikan : SMA</p>
+Status Kepemilikan : Pemerintah Daerah</p>
+SK Pendirian Sekolah : 0426/0/1991</p>
+Tanggal SK Pendirian : 1991-07-15</p>
+SK Izin Operasional : 692/DPKPO/Sek/2016</p>
+Tanggal SK Izin Operasional : 2016-07-30</p>
+            
+        </section>
+
+        <section id="academics">
+            <h2>Akademik</h2>
+            <p>Kurikulum dan program ekstrakurikuler.</p>
+        </section>
+
+        <section id="announcements">
+            <h2>Pengumuman</h2>
+            <p>Berita terbaru dan informasi penting.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Galeri</h2>
+            <p>Foto dan video kegiatan sekolah.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <form>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SMAN 3 TAKALAR. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
