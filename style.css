@@ -1,0 +1,113 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #ecf3f3;
+}
+
+header {
+    background: linear-gradient(#182446, #ffffff);
+    color: #ffffff;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    background: #383f52;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+    font-size: 0.8em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: #55607d;
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    color: #2b2b2b;
+}
+
+main h2 {
+    color: #4f5a79;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.hero h2 {
+  padding: 10px;
+  color: white;
+}
+
+.hero p {
+  background: #383f52;
+} 
+ 
+.profile {
+    list-style-type: none;
+}
+
+footer {
+    background: #383f52;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(44, 44, 44);
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+}
+
+form button {
+    background: #55607d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px 2px 2px 2px;
+}
+
+form button:hover {
+    background: #55607d;
+}
